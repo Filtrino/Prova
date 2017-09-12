@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    tools:context="com.example.alessio.primaapp.Registrati">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="404dp"
+        android:layout_height="404dp">
+
+
+        <EditText
+            android:id="@+id/Rnome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Rcognome"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/Rcognome"
+            android:layout_marginTop="76dp"
+            android:ems="10"
+            android:hint="Nome"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/Rcognome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Rnome"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="Cognome"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/Remail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Rcognome"
+            android:layout_alignStart="@+id/Rcognome"
+            android:layout_below="@+id/Rcognome"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/Rpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/Remail"
+            android:layout_alignRight="@+id/Remail"
+            android:layout_below="@+id/Remail"
+            android:ems="10"
+            android:hint="Paswword"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/Rinoltra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Rpassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            android:text="Inoltra" />
+    </RelativeLayout>
+
+
+</FrameLayout>

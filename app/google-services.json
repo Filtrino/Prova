@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "205233285841",
+    "firebase_url": "https://primaapp-12438.firebaseio.com",
+    "project_id": "primaapp-12438",
+    "storage_bucket": "primaapp-12438.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205233285841:android:a71949cebb764b38",
+        "android_client_info": {
+          "package_name": "com.example.alessio.primaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205233285841-e6pjfern179l54cli0mkp4ekuoaad5r4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alessio.primaapp",
+            "certificate_hash": "e9583a4e5513753d88a76b76f4e351e3f8f1aabd"
+          }
+        },
+        {
+          "client_id": "205233285841-ogj8jjnftbkp9n4d7hfj68ovilloo44i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alessio.primaapp",
+            "certificate_hash": "4371a351587d430cdab45b6eea7ece9bc6981a54"
+          }
+        },
+        {
+          "client_id": "205233285841-baugv2qul2jpn6kst67iugds9qoqinoc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh6beFURrfUhFkoOaeM-E4kfwr02dWx5s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205233285841-baugv2qul2jpn6kst67iugds9qoqinoc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

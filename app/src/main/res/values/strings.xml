@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PrimaApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="auth_failed">Autorizzazione Fallita</string>
+
+</resources>
